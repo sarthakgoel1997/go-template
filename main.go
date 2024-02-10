@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Hello World")
+
 	c := calculator.NewCalculator(5, 5)
-	fmt.Println(c.GetAnswer())
+	fmt.Println("5 + 5 = ", c.GetAnswer())
 }

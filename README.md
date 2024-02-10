@@ -1,14 +1,12 @@
 # go-template
 
-# Introduction
+## Introduction
 An initial template repository for a Go project
 
-## Tools 
-1. Language: Golang@1.21.3
-2. Package Management Tool: go mod
-3. Code Format Tool: golangci-lint@1.55.2
-4. Static Analysis Tool: golangci-lint@1.55.2
-5. CI Tool: CircleCI@2.1
+## Running the code
+``` shell
+go run main.go
+```
 
 ## Structure
 
@@ -40,7 +38,14 @@ Please edit it for your projects.
 2. Run unit tests
 3. Code static analysis and format check
 
-# Getting Start
+## Tools 
+1. Language: Golang@1.21.3
+2. Package Management Tool: go mod
+3. Code Format Tool: golangci-lint@1.55.2
+4. Static Analysis Tool: golangci-lint@1.55.2
+5. CI Tool: CircleCI@2.1
+
+## Getting Started
 
 You have to prepare tools with make.
 
@@ -48,7 +53,7 @@ You have to prepare tools with make.
 make tools
 ```
 
-Also, you can run lint, format and test with make before make a pull request.
+Also, you can run lint, format and test with make before making a pull request.
 
 ``` shell
 # test 
@@ -61,7 +66,6 @@ make lint
 make format
 ```
 
-# Contributing
-See 
+## Contributing
 + [pull_request_template.md](./pull_request_template.md)
 + [issue_template.md](./issue_template.md)
